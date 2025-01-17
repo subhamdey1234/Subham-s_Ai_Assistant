@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-section {
+  background-image: url("https://wallpapers.com/images/hd/ai-1601-x-900-wallpaper-4gsfhamfbkvu0r5k.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Keeps the background image fixed */
+  min-height: 100vh; /* Ensures the section covers at least the full viewport height */
+  position: relative;
+  background-position: center;
+  
+}
+.card{
+  backdrop-filter: blur(15px); 
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(8, 6, 6, 0.696); 
+  box-shadow: 0 0px 16px rgba(255, 255, 255, 0.71);
+}
+
